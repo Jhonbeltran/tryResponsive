@@ -1,0 +1,195 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Courier;
+	
+}
+body {
+	/*text-align: center;
+*/	background: #fffffa;
+}
+p {
+	font-size: 20px;
+}
+#titulo {
+	width: 100%;
+	font-size: 28px;
+	text-align: center;
+	background-color: #E64A19;
+	color: #212121;
+	
+}
+
+/*Menú de navegacion*/
+
+.menu_bar{
+	display: none;
+}
+
+#navigation {
+	width: 90%;
+	max-width: 1024px;
+	margin: 20px auto;
+	background-color: #E64A19;
+
+}
+
+#navigation ul {
+
+	overflow: hidden;
+	list-style: none;
+}
+
+#navigation ul li {
+
+	float: left;
+}
+
+#navigation ul li a{
+
+	color: #212121;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+#navigation ul li span{
+	margin-right: 10px;
+}
+
+#seccion {
+	float: left;
+	/*valores importantes*/
+	width: 70%;
+	margin: 0px 0px;
+	background-color: #727272;
+	box-sizing: border-box;
+	text-align: left;
+	
+}
+
+iframe{
+	width: 80%;
+}
+
+#columna {
+	display: inline;
+	float: left;
+	/*valores importantes*/
+	width: 30%;
+	background: #B6B6B6;
+	padding: 20px;
+	box-sizing: border-box
+
+}
+
+#pie {
+	text-align: center;
+	clear: both;
+	padding: 20px;
+	border-top: 2px solid #999999;
+	
+}
+.titulodentrada {
+	font-size: 30px;
+}
+
+hgroup {
+	display: block;
+	text-align: center;
+}
+
+article {
+	background: #B6B6B6;
+	border: 1px solid #999999;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+article footer {
+	text-align: right;
+}
+time {
+	color: #999999;
+}
+figcaption {
+	font: italic 14px verdana, sans-serif;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1368px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+a{
+	color: #212121;
+}
+
+a:link {text-decoration:none;color:#212121;} 
+
+a:hover {text-decoration:none;background:#F44336;} 
+
+.no_scroll{
+    background: red;
+}
+
+@media screen and (max-width: 800px){
+	.contenedor{
+		width: 100%;
+	}
+
+	#navigation{
+		width: 80%;
+		height: 100%;
+		left: -100%; 
+		margin: 0;
+		position: fixed;
+		
+	}
+
+	#navigation ul li {
+	display: block;
+	float: none;
+	border-bottom: 1px solid rgba(255,255,255, .3);
+	}
+	#seccion{
+		width: 100%;
+	}
+	#columna{
+		width: 100%;
+	}
+
+	#nombre{
+	display: none;
+	}
+
+	.menu_bar{
+		display: block;
+		width: 100%
+		background: #D32F2F;
+	}
+
+	.menu_bar .bt-menu{
+		display: block;
+		padding: 20px;
+		font-weight: bold;
+		-webkit-borde-sizing: border-box;
+		-moz-borde-sizing: border-box;
+		borde-sizing: border-box;
+	}
+
+	.menu_bar span{
+		float: right;
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 400px){
+
+	#columna{
+		display: none;
+	}
+}
+
+
